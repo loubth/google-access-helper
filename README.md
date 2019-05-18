@@ -46,5 +46,6 @@
 
 ## Update log
 
-###2019.05.18
+### 2019.05.18
+
 Update the key for v2.3.0
