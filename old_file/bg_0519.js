@@ -2419,7 +2419,7 @@ window.Zepto = Zepto, void 0 === window.$ && (window.$ = Zepto),
             n.D(), n.R(function() {
                 localStorage["auto-homepage"] && "true" == localStorage["auto-homepage"] && chrome.tabs.query({}, function(t) {
                     for (var e = !1, n = 0; n < t.length; n++)
-                        if (ture) {
+                        if ("chrome://newtab/" == t[n].url) {
                             e = !0, chrome.tabs.update(t[n].id, {
                                 active: !0,
                                 url: localStorage.homepage
